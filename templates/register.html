@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+    <style>
+        .container {
+          height: 350px;
+          position: relative;
+          border: 10px solid rgb(1, 15, 46);
+          border-radius: 10px;
+          background-color: rgb(5, 68, 97);
+          box-shadow: inset 4px 3px 8px 1px #969696;
+          
+        }
+        
+        .vertical-center {
+          margin: 0;
+          position: absolute;
+          top: 50%;
+          -ms-transform: translateY(-50%);
+          transform: translateY(-50%);
+        }
+        </style>
+    
+    <title>Document</title>
+</head>
+<body>
+      <div class="container">
+        <div class="vertical-center">
+            <form action="/reg">
+                <label for="fname">Name:</label><br>
+                <input type="text" id="fname" name="fname"><br><br>
+                <label for="lname">Phone No:</label><br>
+                <input type="text" id="lname" name="lname"><br><br>
+                <label for="mname">Father Name/ Daugher/Son's Name:</label><br>
+                <input type="text" id="lname" name="lname"><br><br>
+        
+                <input class="btn btn-success" type="submit" value="Submit">
+              </form>
+        </div>
+      </div>       
+</body>
+</html>
